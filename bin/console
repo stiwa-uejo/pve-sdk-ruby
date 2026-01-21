@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'proxmox'
+require 'irb'
+
+puts 'Proxmox Ruby SDK Console'
+puts 'Proxmox module is loaded. You can use Proxmox::Client.new(...)'
+
+IRB.start
